@@ -14,7 +14,7 @@ export default function Index() {
       </Head>
       <h1 className="text-center text-7xl">Hey 👋 I'm Heath!</h1>
       <div className="grid">
-        <div className="place-self-center shadow-lg grid grid-flow-row grid-cols-1 md:grid-cols-2 grid-rows-heathRows p-5 md:p-10 w-5/6 h-auto">
+        <div className="place-self-center shadow-lg grid grid-flow-row grid-cols-1 md:grid-cols-2 grid-rows-heathRows p-5 md:p-10 w-4/6 h-auto">
           <div className="place-self-center">
             <img
               className="w-full"
