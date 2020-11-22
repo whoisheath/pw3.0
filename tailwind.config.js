@@ -8,6 +8,7 @@ module.exports = {
         "accent-7": "#333",
         success: "#0070f3",
         cyan: "#79FFE1",
+        "heath-purp": "#9419e0",
       },
       spacing: {
         28: "7rem",
@@ -31,6 +32,7 @@ module.exports = {
       },
       gridTemplateRows: {
         heathRows: "90% 10%",
+        "smol-contact": "50% 50% 10%",
       },
     },
   },

@@ -1,5 +1,6 @@
 import Layout from "../components//custom/Layout";
 import Head from "next/head";
+import Socials from "../components/socials";
 
 export default function Index() {
   return (
@@ -51,43 +52,7 @@ export default function Index() {
             &nbsp;
             <p>📍 Currently in: Dallas, TX</p>
           </div>
-          <div className="flex col-span-2 place-self-center mt-10">
-            <a href="https://www.twitter.com/whoisheath_">
-              <img
-                className="w-8 md:w-12 h-8 md:h-12 m-2 md:m-5"
-                src="twitter.svg"
-                alt="twitter"
-              />
-            </a>
-            <a href="https://www.linkedin.com/in/heathblandford">
-              <img
-                className="w-8 md:w-12 h-8 md:h-12 m-2 md:m-5"
-                src="linkedin.svg"
-                alt="linkedin"
-              />
-            </a>
-            <a href="https://www.github.com/heathblandford">
-              <img
-                className="w-8 md:w-12 h-8 md:h-12 m-2 md:m-5"
-                src="github.svg"
-                alt="github"
-              />
-            </a>
-            <a href="https://www.last.fm/user/cloolis">
-              <img
-                className="w-8 md:w-12 h-8 md:h-12 m-2 md:m-5"
-                src="lastfm.svg"
-                alt="lastfm"
-              />
-            </a>
-            <a href="https://www.instagram.com/whoisheath_">
-              <img
-                className="w-8 md:w-12 h-8 md:h-12 m-2 md:m-5"
-                src="instagram.svg"
-                alt="instagram"
-              />
-            </a>
-          </div>
+          <Socials />
         </div>
       </div>
     </Layout>

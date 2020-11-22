@@ -1,5 +1,6 @@
 import Layout from "../components/custom/Layout";
 import Head from "next/head";
+import Socials from "../components/socials";
 
 export default function docs() {
   // handle submit is for sending the contact form data to my discord server
@@ -55,22 +56,8 @@ export default function docs() {
       </Head>
       <h1 className="text-center text-5xl">Get in Touch</h1>
       <div className="grid">
-        <div className="place-self-center shadow-lg grid grid-flow-row grid-cols-1 md:grid-cols-2 grid-rows-heathRows p-5 md:p-10 w-4/6 h-auto">
-          <div className="place-self-center">
-            <p>
-              The best way to contact me is{" "}
-              <a
-                className="text-success"
-                href="https://twitter.com/whoisheath_"
-              >
-                Twitter
-              </a>
-              . But, if you fill out the form, a notification will go off in my
-              own discord server and I'll get back to you as quickly as
-              possible!
-            </p>
-          </div>
-          <div className="p-10">
+        <div className="place-self-center shadow-lg grid grid-flow-col grid-cols-1 md:grid-cols-2 grid-rows-smol-contact md:grid-rows-heathRows p-5 w-4/6 h-auto">
+          <div className="">
             <form
               onSubmit={handleSubmit}
               name="contactMeForm"
@@ -140,50 +127,28 @@ export default function docs() {
               <div className="submitButton">
                 <button
                   type="submit"
-                  class="bg-purple-600 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50 text-white p-2 rounded-md w-1/4"
+                  class="bg-purple-600 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50 text-white p-2 rounded-md w-2/4 md:w-1/4"
                 >
                   Submit
                 </button>
               </div>
             </form>
           </div>
-          <div className="flex col-span-2 place-self-center mt-10">
-            <a href="https://www.twitter.com/whoisheath_">
-              <img
-                className="w-8 md:w-12 h-8 md:h-12 m-2 md:m-5"
-                src="twitter.svg"
-                alt="twitter"
-              />
-            </a>
-            <a href="https://www.linkedin.com/in/heathblandford">
-              <img
-                className="w-8 md:w-12 h-8 md:h-12 m-2 md:m-5"
-                src="linkedin.svg"
-                alt="twitter"
-              />
-            </a>
-            <a href="https://www.github.com/heathblandford">
-              <img
-                className="w-8 md:w-12 h-8 md:h-12 m-2 md:m-5"
-                src="github.svg"
-                alt="twitter"
-              />
-            </a>
-            <a href="https://www.last.fm/user/cloolis">
-              <img
-                className="w-8 md:w-12 h-8 md:h-12 m-2 md:m-5"
-                src="lastfm.svg"
-                alt="twitter"
-              />
-            </a>
-            <a href="https://www.instagram.com/whoisheath_">
-              <img
-                className="w-8 md:w-12 h-8 md:h-12 m-2 md:m-5"
-                src="instagram.svg"
-                alt="twitter"
-              />
-            </a>
+          <div className="place-self-center w-5/6 mt-4">
+            <p>
+              The best way to contact me is{" "}
+              <a
+                className="text-heath-purp"
+                href="https://twitter.com/whoisheath_"
+              >
+                Twitter
+              </a>
+              . But, if you fill out the form, a notification will go off in my
+              own Discord server and I'll get back to you as quickly as
+              possible!
+            </p>
           </div>
+          <Socials />
         </div>
       </div>
     </Layout>
