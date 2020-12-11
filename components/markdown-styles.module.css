@@ -16,3 +16,19 @@
 .markdown h3 {
   @apply text-2xl mt-8 mb-4 leading-snug;
 }
+
+.markdown a {
+  @apply text-heath-purp;
+}
+
+.markdown pre {
+  @apply bg-accent-2 p-10;
+}
+
+.markdown ul {
+  @apply list-disc ml-5;
+}
+
+.markdown ol {
+  @apply list-decimal;
+}

@@ -9,6 +9,8 @@ module.exports = {
         success: "#0070f3",
         cyan: "#79FFE1",
         "heath-purp": "#9419e0",
+        "heath-green": "#1ec210",
+        "heath-orange": "#da6c00",
       },
       spacing: {
         28: "7rem",

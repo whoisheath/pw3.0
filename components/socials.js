@@ -1,6 +1,6 @@
 export default function Socials() {
   return (
-    <div className="flex col-span-2 place-self-center mt-10">
+    <div className="flex col-span-2 place-self-center">
       <a href="https://www.twitter.com/whoisheath_">
         <img
           className="w-8 md:w-12 h-8 md:h-12 m-2 md:m-5"

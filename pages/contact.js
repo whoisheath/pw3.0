@@ -134,6 +134,7 @@ export default function docs() {
               </div>
             </form>
           </div>
+          <Socials />
           <div className="place-self-center w-5/6 mt-4">
             <p>
               The best way to contact me is{" "}
@@ -148,7 +149,6 @@ export default function docs() {
               possible!
             </p>
           </div>
-          <Socials />
         </div>
       </div>
     </Layout>

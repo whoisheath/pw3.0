@@ -7,9 +7,10 @@ export default function Intro() {
         The NUD-Letter.
       </h1>
       <h4 className="text-center md:text-left text-lg mt-5 md:pl-8">
-        Pronounced <span className="tracking-widest">NOOD</span>. A weekly(ish)
-        updated blog about New, Unique, and Difficult to achieve technology that
-        propel's us forward.
+        Pronounced <span className="tracking-widest text-heath-purp">NOOD</span>
+        . A weekly(ish) updated blog about New, Unique, and Difficult to achieve
+        technology that propel's us forward (
+        <span className="text-heath-green">and other things I like</span>).
       </h4>
     </section>
   );

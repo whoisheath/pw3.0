@@ -13,8 +13,10 @@ export default function Index() {
           rel="stylesheet"
         />
       </Head>
-      <h1 className="text-center text-7xl">Hey 👋 I'm Heath!</h1>
-      <div className="grid">
+      <h1 className="text-center text-3xl my-5 md:text-7xl">
+        Hey 👋 I'm Heath!
+      </h1>
+      <div className="grid mb-12">
         <div className="place-self-center shadow-lg grid grid-flow-row grid-cols-1 md:grid-cols-2 grid-rows-heathRows p-5 md:p-10 w-4/6 h-auto">
           <div className="place-self-center">
             <img
@@ -24,7 +26,7 @@ export default function Index() {
               id="good-me"
             />
           </div>
-          <div className="ml-10">
+          <div className="md:ml-10 mb-10">
             <p>
               I'm a Petroleum Engineer by education (B.S. in Petroluem
               Engineering from Marietta College in 2016) <br />
@@ -47,7 +49,7 @@ export default function Index() {
               <li>NodeJS</li>
               <li>Python</li>
               <li>Consumer Technology</li>
-              <li>Hip Hop and House music</li>
+              <li>And according to Spotify, Alternative R&B</li>
             </ul>
             &nbsp;
             <p>📍 Currently in: Dallas, TX</p>
