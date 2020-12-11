@@ -54,7 +54,7 @@ export default function docs() {
         <title>Get in Touch!</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-      <h1 className="text-center text-5xl">Get in Touch</h1>
+      <h1 className="text-center text-5xl">Get in Touch!</h1>
       <div className="grid">
         <div className="place-self-center shadow-lg grid grid-flow-col grid-cols-1 md:grid-cols-2 grid-rows-smol-contact md:grid-rows-heathRows p-5 w-4/6 h-auto">
           <div className="">
