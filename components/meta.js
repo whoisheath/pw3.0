@@ -36,7 +36,6 @@ export default function Meta() {
         name="description"
         content={`The NUD-Letter. A weekly(ish) updated blog about New, Unique, and Difficult to achieve technology that propel's us forward (and other things I like).`}
       />
-      <meta property="og:image" content={HOME_OG_IMAGE_URL} />
     </Head>
   );
 }
