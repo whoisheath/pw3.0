@@ -10,9 +10,9 @@ ogImage:
   url: "/assets/blog/my-name-heath/good-me.jpg"
 ---
 
-I was born in Little Rock, AR, but moved to Wilmington, OH, when I was five months old. I moved again when I was 16. I have a degree in Petroleum Engineering, but I've worked as a Mechanical Engineer and now work as a Customer Success Engineer for [Losant IoT](https://www.losant.com/).
+I was born in Little Rock, AR, but moved to Wilmington, OH, when I was five months old. I moved again when I was 16. I have a degree in Petroleum Engineering, but previously I worked as a Mechanical Engineer in New Product Development, and now work as a Customer Success Engineer for [Losant IoT](https://www.losant.com/).
 
-With that, you've probably got a good idea of the things I'm into, but just for the sake of _content_ here is what I'm into **right now**:
+With that, you probably have a good grasp of the type of things I'm into, but just for the sake of _content_ here is what I'm into **right now**:
 
 - IoT
 - JavaScript
