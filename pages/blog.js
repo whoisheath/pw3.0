@@ -5,6 +5,7 @@ import Intro from "../components/intro";
 import Layout from "../components/layout";
 import { getAllPosts } from "../lib/api";
 import Head from "next/head";
+import Meta from "../components/meta";
 
 export default function Index({ allPosts }) {
   const heroPost = allPosts[0];
@@ -12,6 +13,7 @@ export default function Index({ allPosts }) {
   return (
     <>
       <Layout>
+        <Meta />
         <Head>
           <title>The NUD-Letter</title>
         </Head>
