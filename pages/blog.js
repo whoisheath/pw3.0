@@ -12,8 +12,8 @@ export default function Index({ allPosts }) {
   const morePosts = allPosts.slice(1);
   return (
     <>
+      <Meta />
       <Layout>
-        <Meta />
         <Head>
           <title>The NUD-Letter</title>
         </Head>
