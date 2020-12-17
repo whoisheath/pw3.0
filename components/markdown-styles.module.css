@@ -32,3 +32,11 @@
 .markdown ol {
   @apply list-decimal;
 }
+
+.markdown blockquote {
+  @apply bg-accent-2 p-5 w-5/6;
+}
+
+.markdown img {
+  @apply m-auto shadow-md;
+}
