@@ -56,7 +56,7 @@ export default function Index() {
               <li>And according to Spotify, Alternative R&B</li>
             </ul>
             &nbsp;
-            <p>📍 Currently in: Dallas, TX</p>
+            <p>📍 Currently in: Cincinnati, OH</p>
           </div>
           <Socials />
         </div>
