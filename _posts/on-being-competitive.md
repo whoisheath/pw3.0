@@ -2,7 +2,7 @@
 title: "On Being Competitive"
 excerpt: "I feel like I've lost my competitive edge, or rather my competitive spirit. It's time to bring that back. But with measure."
 coverImage: "/assets/blog/competitive/chess.jpg"
-date: "2020-12-10"
+date: "2021-03-25"
 author:
   name: Heath Blandford
   picture: "/assets/blog/authors/me-2d.png"
