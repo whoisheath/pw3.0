@@ -1,7 +1,7 @@
 import Container from "../components/container";
 import MoreStories from "../components/food/more-food";
 import HeroPost from "../components/food/food-hero-post";
-import Intro from "../components/intro";
+import Intro from "../components/food/food-intro";
 import Layout from "../components/layout";
 import { getAllPosts } from "../lib/foodApi";
 import Head from "next/head";
