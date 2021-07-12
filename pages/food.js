@@ -5,7 +5,7 @@ import Intro from "../components/food/food-intro";
 import Layout from "../components/layout";
 import { getAllPosts } from "../lib/foodApi";
 import Head from "next/head";
-import Meta from "../components/meta";
+import Meta from "../components/food/food-meta";
 
 export default function Index({ allPosts }) {
   const heroPost = allPosts[0];
