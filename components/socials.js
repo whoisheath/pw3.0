@@ -15,7 +15,7 @@ export default function Socials() {
           alt="twitter"
         />
       </a>
-      <a href="https://www.github.com/heathblandford">
+      <a href="https://www.github.com/whoisheath">
         <img
           className="w-8 md:w-12 h-8 md:h-12 m-2 md:m-5"
           src="github.svg"
