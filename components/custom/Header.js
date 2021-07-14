@@ -19,6 +19,9 @@ const Header = () => (
       <Link href="/food">
         <a className="main-link">Food</a>
       </Link>
+      <Link href="/projects">
+        <a className="main-link">Projects</a>
+      </Link>
     </div>
     <style global jsx>{`
       .headerMain {
